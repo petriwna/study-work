@@ -1,0 +1,27 @@
+.life-card {
+  font-family: var(--second-family);
+  padding: 24px;
+  height: 100%;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2px;
+
+  &__title {
+    font-family: var(--font-family);
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 120%;
+    color: var(--color-text-primary);
+  }
+
+  &__img {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 8px;
+  }
+}

@@ -1,0 +1,28 @@
+.subscribe-section {
+  text-align: center;
+  background-color: var(--secondary);
+  background-image: url('../../public/images/subscribe-decor.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__title {
+    color: var(--primary);
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 131%;
+  }
+
+  &__form {
+    margin-bottom: 4rem;
+    width: 80%;
+  }
+}

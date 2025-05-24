@@ -1,0 +1,43 @@
+.application-section {
+  background-color: var(--secondary-light);
+  position: relative;
+
+  &:before {
+    display: block;
+    content: "";
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../../public/images/apl-top-decor.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 180px;
+  }
+
+  &:after {
+    display: block;
+    content: "";
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-image: url("../../public/images/apl-bottom-decor.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80px;
+    height: 80px;
+  }
+
+  &__container {
+    position: relative;
+    z-index: 1;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+}
