@@ -1,40 +1,28 @@
 .application-card {
   display: flex;
   gap: 8px;
-  flex-direction: column;
+  flex-direction: row;
   background-color: var(--color-white);
   border-radius: 2px;
   font-family: var(--second-family);
   padding: 24px;
   height: 100%;
   font-weight: 400;
-  font-size: 14px;
   line-height: 160%;
+  box-shadow: 0 0 15px 0 rgba(220, 220, 220, 0.5);
+  position: relative;
 
-  &__circle {
-    width: 56px;
-    height: 56px;
-    background-color: var(--color-accent);
-    border-radius: 50%;
-
-    &--first {
-      background-color: var(--secondary-orange);
-    }
-
-    &--second {
-      background-color: #3209ff;
-    }
-
-    &--third {
-      background-color: var(--secondary);
-    }
+  &__text {
+    width: 75%;
   }
 
-  &__title {
-    font-family: var(--font-family);
-    margin-bottom: 8px;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 120%;
+  &__number {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: 154px;
+    line-height: 100%;
+    color: rgba(60, 80, 224, 0.1);
   }
 }
