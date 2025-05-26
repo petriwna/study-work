@@ -2,8 +2,9 @@
   border-radius: 10px;
   padding: 20px 24px;
   transition: 0.3s ease-in-out;
-  background-color: var(--secondary-light);
-  height: fit-content;
+  background-color: var(--color-white);
+  box-shadow: 0 0 15px 0 rgba(220, 220, 220, 0.5);
+  height: 100%;
 }
 
 details[open] summary ~ * {
@@ -39,7 +40,7 @@ details summary {
 
 details summary:after {
   content: "+";
-  color: var(--secondary);
+  color: var(--color-accent);
   position: absolute;
   font-size: 1.75rem;
   line-height: 0;

@@ -5,6 +5,7 @@
   font-size: 14px;
   line-height: 225%;
   letter-spacing: -0.03em;
+  background-color: var(--color-white);
 
   &__container {
     &:before {
@@ -24,7 +25,6 @@
     flex-direction: column;
     border-radius: 100px;
     padding: 16px 30px 16px 16px;
-    background-color: var(--color-accent);
     color: var(--color-accent-dark);
 
     @media screen and (min-width: $bp-tablet){

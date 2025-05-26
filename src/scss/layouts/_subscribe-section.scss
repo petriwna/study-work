@@ -1,9 +1,5 @@
 .subscribe-section {
   text-align: center;
-  background-color: var(--secondary);
-  background-image: url('../../public/images/subscribe-decor.png');
-  background-repeat: no-repeat;
-  background-position: center bottom;
   position: relative;
 
   &__container {
@@ -11,18 +7,38 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-accent);
+    gap: 24px;
+    border-radius: 84px;
+    padding: 155px 64px;
+    background-image: url("../../public/images/decor-sub.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    @media screen and (min-width: $bp-tablet) {
+      flex-direction: row;
+    }
   }
 
   &__title {
-    color: var(--primary);
+    color: var(--color-white);
     font-family: var(--second-family);
-    font-weight: 700;
-    font-size: 42px;
-    line-height: 131%;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 120%;
+    width: 100%;
+    margin: 0;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 40%;
+    }
   }
 
   &__form {
-    margin-bottom: 4rem;
-    width: 80%;
+    width: 100%;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 50%;
+    }
   }
 }
