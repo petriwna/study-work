@@ -1,6 +1,6 @@
 .edu-card {
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 186%;
   border-radius: 2px;
   height: 100%;
@@ -8,8 +8,15 @@
   &__title {
     text-align: center;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 175%;
-    margin: 0;
+    margin-bottom: 10px;
+    color: var(--color-accent);
+    text-wrap: nowrap;
+  }
+
+  &--center {
+    margin: 0 auto;
+    max-width: 500px;
   }
 }
