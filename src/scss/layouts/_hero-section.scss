@@ -1,14 +1,14 @@
 .hero-section {
-  padding-top: 124px;
+  padding: 114px 0;
   position: relative;
   overflow: hidden;
 
   @media screen and (min-width: $bp-tablet) {
-    padding-top: 150px;
+    padding: 150px 0;
   }
 
   @media screen and (min-width: $bp-desktop) {
-    padding-top: 165px;
+    padding: 180px 0;
   }
 
   &__container {
@@ -27,17 +27,33 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
+    width: 100%;
+
+    @media screen and (min-width: $bp-tablet) {
+      width: 50%;
+    }
   }
 
   &__title {
     position: relative;
     font-family: var(--second-family);
-    color: var(--color-accent);
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 96%;
-    letter-spacing: -0.03em;
+    color: var(--color-text-second-dark);
     margin: 0;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+
+    @media screen and (min-width: $bp-mobile) {
+      font-size: 84px;
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      font-size: 64px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      font-size: 84px;
+    }
   }
 
   &__text {
@@ -72,10 +88,14 @@
   }
 
   &__img {
-    width: 70%;
+    display: none;
+    position: absolute;
     object-fit: contain;
+    object-position: center;
+    right: 0;
 
     @media screen and (min-width: $bp-tablet) {
+      display: block;
       width: 50%;
     }
   }

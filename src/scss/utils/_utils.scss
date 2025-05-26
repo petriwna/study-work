@@ -12,5 +12,11 @@
 }
 
 .accent {
-  color: var(--secondary);
+  color: var(--color-accent);
+}
+
+.text {
+  &--center {
+    text-align: center;
+  }
 }

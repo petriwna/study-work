@@ -2,7 +2,7 @@
   padding: 51px 0;
 
   &__title {
-    color: var(--color-text-primary);
+    color: var(--color-text-primary-dark);
     font-weight: 700;
     font-size: 40px;
     line-height: 120%;
@@ -13,9 +13,10 @@
   }
 
   &__subtitle {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 163%;
+    color: var(--color-text-primary-dark);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
     text-align: center;
     opacity: .8;
   }
