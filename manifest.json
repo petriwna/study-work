@@ -9,6 +9,7 @@
   "public/images/campus.png": "auto/public/images/campus.png",
   "favicon/web-app-manifest-512x512.png": "auto/favicon/web-app-manifest-512x512.png",
   "public/images/career-2.jpg": "auto/public/images/career-2.jpg",
+  "public/images/decor-sub.png": "auto/public/images/decor-sub.png",
   "public/images/career-4.jpg": "auto/public/images/career-4.jpg",
   "public/images/career-3.jpg": "auto/public/images/career-3.jpg",
   "public/images/career-1.jpg": "auto/public/images/career-1.jpg",
@@ -26,7 +27,6 @@
   "media/poppins-v23-latin-600.woff2": "auto/media/91145014c0350c248ed2.woff2",
   "media/poppins-v23-latin-regular.woff2": "auto/media/405055dd680fa1dcdfa2.woff2",
   "media/poppins-v23-latin-500.woff2": "auto/media/08491d3f7fe7ae88ef44.woff2",
-  "public/images/subscribe-decor.png": "auto/public/images/subscribe-decor.png",
   "favicon/favicon-96x96.png": "auto/favicon/favicon-96x96.png",
   "public/images/education-decor.png": "auto/public/images/education-decor.png",
   "public/images/apl-top-decor.png": "auto/public/images/apl-top-decor.png",
@@ -38,5 +38,5 @@
   "favicon/site.webmanifest": "auto/favicon/site.webmanifest",
   "robots.txt": "auto/robots.txt",
   "scripts.js.map": "auto/scripts.js.map",
-  "main.hot-update.js.map": "auto/main.af9946befd40e3334f89.hot-update.js.map"
+  "main.hot-update.js.map": "auto/main.2a8c47b5c8b37f0f016d.hot-update.js.map"
 }
