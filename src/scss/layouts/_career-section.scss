@@ -19,10 +19,24 @@
     }
   }
 
+  &__item {
+    margin-bottom: 10px;
+    padding-left: 1.25rem;
+    position: relative;
+
+    &::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--color-accent);
+      font-size: 2rem;
+      line-height: 1;
+    }
+  }
+
   &__img {
     display: none;
     position: absolute;
-    //top: -25%;
     z-index: 0;
 
     @media screen and (min-width: $bp-tablet) {

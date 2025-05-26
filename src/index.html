@@ -43,7 +43,7 @@
     <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg"/>
     <link rel="shortcut icon" href="./favicon/favicon.ico"/>
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png"/>
-    <meta name="apple-mobile-web-app-title" content="StudyCA"/>
+    <meta name="apple-mobile-web-app-title" content="SWC"/>
     <link rel="manifest" href="./favicon/site.webmanifest"/>
 </head>
 <body>
@@ -52,7 +52,7 @@
         <div class="header__container">
             <nav class="header__nav">
                 <div class="header__logo logo">
-                    <img class="logo__img" src="public/images/logo.png" alt="Logo">
+                    <a href="/" class="link logo__link">SWC</a>
                 </div>
                 <ul class="header__menu">
                     <li><a class="link" href="#education-types">Types of Education</a></li>
@@ -76,7 +76,7 @@
                     </svg>
                 </button>
                 <div class="header__logo logo">
-                    <img class="logo__img" src="public/images/logo.png" alt="Logo">
+                    <a href="/" class="link logo__link">SWC</a>
                 </div>
                 <ul class="mobile-menu__list">
                     <li><a class="mobile-menu__link" href="#education-types">Types of Education</a></li>
@@ -230,86 +230,68 @@
             <h2 class="section__title section__title--centered">Student Life in Canada</h2>
             <p class="text--center">Being an international student in Canada means experiencing a multicultural, safe,
                 and student-friendly environment:</p>
-            <ul>
-                <li><strong>Medical Insurance:</strong> Mandatory in most provinces; some schools include it in tuition,
-                    others require separate enrollment.
+            <ul class="life-section__list">
+                <li class="life-card">
+                    <div class="life-card__icon">
+                        <svg width="52" height="52">
+                            <use href="./public/images/icons.svg#icon-medical"></use>
+                        </svg>
+                    </div>
+                    <div class="life-card__content">
+                        <h3 class="life-card__title">Medical Insurance</h3>
+                        <p>Mandatory in most provinces; some schools include it in tuition,
+                            others require separate enrollment.</p>
+                    </div>
                 </li>
-                <li><strong>Accommodation Options:</strong> Dormitories, shared apartments, and homestays are available,
-                    with costs depending on location and preferences.
+                <li class="life-card">
+                    <div class="life-card__icon">
+                        <svg width="52" height="52">
+                            <use href="./public/images/icons.svg#icon-house"></use>
+                        </svg>
+                    </div>
+                    <div class="life-card__content">
+                        <h3 class="life-card__title">Accommodation Options</h3>
+                        <p>Dormitories, shared apartments, and homestays are available,
+                            with costs depending on location and preferences.</p>
+                    </div>
                 </li>
-                <li><strong>Daily Living:</strong> Budget for groceries, phone plans, clothing, and personal care
-                    (around CAD $500–$800/month).
+                <li class="life-card">
+                    <div class="life-card__icon">
+                        <svg width="52" height="52">
+                            <use href="./public/images/icons.svg#icon-dayli"></use>
+                        </svg>
+                    </div>
+                    <div class="life-card__content">
+                        <h3 class="life-card__title">Daily Living</h3>
+                        <p>Budget for groceries, phone plans, clothing, and personal care
+                            (around CAD $500–$800/month).</p>
+                    </div>
                 </li>
-                <li><strong>Public Services:</strong> Students often benefit from discounted transport, museum passes,
-                    and community programs.
+                <li class="life-card">
+                    <div class="life-card__icon">
+                        <svg width="52" height="52">
+                            <use href="./public/images/icons.svg#icon-public"></use>
+                        </svg>
+                    </div>
+                    <div class="life-card__content">
+                        <h3 class="life-card__title">Public Services</h3>
+                        <p>Students often benefit from discounted transport, museum passes,
+                            and community programs.</p>
+                    </div>
                 </li>
-                <li><strong>Social Integration:</strong> Orientation weeks, campus events, and cultural societies help
-                    you feel at home and meet new people.
+                <li class="life-card">
+                    <div class="life-card__icon">
+                        <svg width="52" height="52">
+                            <use href="./public/images/icons.svg#icon-social"></use>
+                        </svg>
+                    </div>
+                    <div class="life-card__content">
+                        <h3 class="life-card__title">Social Integration</h3>
+                        <p>Orientation weeks, campus events, and cultural societies help
+                            you feel at home and meet new people.</p>
+                    </div>
                 </li>
             </ul>
-            <!--            <ul class="life-section__list">-->
-            <!--                <li class="life-section__item">-->
-            <!--                    <article class="life-card">-->
-            <!--                        <img src="public/images/medical.png" class="life-card__img">-->
-            <!--                        <h3 class="life-card__title">Health Insurance</h3>-->
-            <!--                        <p>Most provinces require international students-->
-            <!--                            to purchase-->
-            <!--                            private-->
-            <!--                            health insurance or enroll in a university plan. Some provinces like British Columbia offer-->
-            <!--                            public-->
-            <!--                            coverage after a waiting period.</p>-->
-            <!--                    </article>-->
-            <!--                </li>-->
-
-            <!--                <li class="life-section__item">-->
-            <!--                    <article class="life-card">-->
-            <!--                        <img src="public/images/house.png" class="life-card__img" alt="icon housing">-->
-            <!--                        <h3 class="life-card__title">Housing</h3>-->
-            <!--                        <p>Students can choose between on-campus residences and-->
-            <!--                            off-campus-->
-            <!--                            rentals.-->
-            <!--                            Average monthly rent ranges from CAD 600 to 1,200 depending on location and accommodation-->
-            <!--                            type.</p>-->
-            <!--                    </article>-->
-            <!--                </li>-->
-
-            <!--                <li class="life-section__item">-->
-            <!--                    <article class="life-card">-->
-            <!--                        <img src="public/images/bank.png" class="life-card__img" alt="icon banking">-->
-            <!--                        <h3 class="life-card__title">Banking</h3>-->
-            <!--                        <p>Opening a student bank account is simple and often-->
-            <!--                            comes with no-->
-            <!--                            monthly-->
-            <!--                            fees.-->
-            <!--                            Major banks like RBC, TD, and Scotiabank offer tailored services for newcomers.</p>-->
-            <!--                    </article>-->
-            <!--                </li>-->
-
-            <!--                <li class="life-section__item">-->
-            <!--                    <article class="life-card">-->
-            <!--                        <img src="public/images/transport.png" class="life-card__img" alt="icon transportation">-->
-            <!--                        <h3 class="life-card__title">Transportation</h3>-->
-            <!--                        <p>Public transit is well-developed in most-->
-            <!--                            cities, with-->
-            <!--                            discounted-->
-            <!--                            student passes available. In places like Toronto and Vancouver, students rely heavily on-->
-            <!--                            subways,-->
-            <!--                            buses,-->
-            <!--                            and trains.</p>-->
-            <!--                    </article>-->
-            <!--                </li>-->
-
-            <!--                <li class="life-section__item">-->
-            <!--                    <article class="life-card">-->
-            <!--                        <img src="public/images/campus.png" class="life-card__img" alt="icon campus">-->
-            <!--                        <h3 class="life-card__title">Campus Life</h3>-->
-            <!--                        <p>Canadian universities offer a vibrant campus experience with-->
-            <!--                            student-->
-            <!--                            clubs, events, academic support, and multicultural communities to help you adapt and-->
-            <!--                            thrive.</p>-->
-            <!--                    </article>-->
-            <!--                </li>-->
-            <!--            </ul>-->
         </div>
     </section>
     <section id="career" class="section career-section">
@@ -325,93 +307,23 @@
                     <p class="text--center">Many international students stay and work in Canada after finishing their
                         studies:</p>
                     <ul>
-                        <li><strong>PGWP:</strong> Gain Canadian work experience directly related to your field.</li>
-                        <li><strong>Canadian Experience Class:</strong> Pathway to permanent residency after 1 year of
+                        <li class="career-section__item"><strong>PGWP:</strong> Gain Canadian work experience directly
+                            related to your field.
+                        </li>
+                        <li class="career-section__item"><strong>Canadian Experience Class:</strong> Pathway to
+                            permanent residency after 1 year of
                             skilled work.
                         </li>
-                        <li><strong>Provincial Nominee Programs (PNP):</strong> Specific streams for international
+                        <li class="career-section__item"><strong>Provincial Nominee Programs (PNP):</strong> Specific
+                            streams for international
                             graduates.
                         </li>
-                        <li><strong>In-Demand Careers:</strong> IT, healthcare, engineering, and skilled trades are
+                        <li class="career-section__item"><strong>In-Demand Careers:</strong> IT, healthcare,
+                            engineering, and skilled trades are
                             highly
                             sought after.
                         </li>
                     </ul>
-                    <!--                <ul class="career-section__list">-->
-                    <!--                    <li>-->
-                    <!--                        <article class="career-card">-->
-                    <!--                            <img-->
-                    <!--                                    class="career-card__image"-->
-                    <!--                                    src="public/images/career-1.jpg"-->
-                    <!--                                    alt="Graduates"-->
-                    <!--                            />-->
-                    <!--                            <div class="career-card__content">-->
-                    <!--                                <h3 class="career-card__title">Post-Graduation Work Permit (PGWP)</h3>-->
-                    <!--                                <p>-->
-                    <!--                                    Graduates of eligible programs can apply for a-->
-                    <!--                                    PGWP, which allows them to work in Canada for up to 3 years. Learn more at-->
-                    <!--                                    <a class="link link&#45;&#45;content"-->
-                    <!--                                       href="https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"-->
-                    <!--                                       target="_blank" rel="noopener">IRCC</a>.</p>-->
-                    <!--                            </div>-->
-                    <!--                        </article>-->
-                    <!--                    </li>-->
-
-                    <!--                    <li>-->
-                    <!--                        <article class="career-card">-->
-                    <!--                            <img-->
-                    <!--                                    class="career-card__image"-->
-                    <!--                                    src="public/images/career-2.jpg"-->
-                    <!--                                    alt="People working on a laptop"-->
-                    <!--                            />-->
-                    <!--                            <div class="career-card__content">-->
-                    <!--                                <h3 class="career-card__title">Canadian Experience Class (CEC)</h3>-->
-                    <!--                                <p>-->
-                    <!--                                    After gaining skilled work experience in Canada,-->
-                    <!--                                    graduates may apply for permanent residence through the Express Entry system under-->
-                    <!--                                    the-->
-                    <!--                                    CEC stream.-->
-                    <!--                                </p>-->
-                    <!--                            </div>-->
-                    <!--                        </article>-->
-                    <!--                    </li>-->
-
-                    <!--                    <li>-->
-                    <!--                        <article class="career-card">-->
-                    <!--                            <img-->
-                    <!--                                    class="career-card__image"-->
-                    <!--                                    src="public/images/career-3.jpg"-->
-                    <!--                                    alt="Canada"-->
-                    <!--                            />-->
-                    <!--                            <div class="career-card__content">-->
-                    <!--                                <h3 class="career-card__title">Provincial Nominee Programs (PNP)</h3>-->
-                    <!--                                <p>-->
-                    <!--                                    Many provinces offer immigration pathways for-->
-                    <!--                                    graduates through PNPs. Requirements and eligible fields vary by province.-->
-                    <!--                                </p>-->
-                    <!--                            </div>-->
-                    <!--                        </article>-->
-                    <!--                    </li>-->
-
-                    <!--                    <li>-->
-                    <!--                        <article class="career-card">-->
-                    <!--                            <img-->
-                    <!--                                    class="career-card__image"-->
-                    <!--                                    src="public/images/career-4.jpg"-->
-                    <!--                                    alt="Builders"-->
-                    <!--                            />-->
-                    <!--                            <div class="career-card__content">-->
-                    <!--                                <h3 class="career-card__title">In-Demand Occupations</h3>-->
-                    <!--                                <p>-->
-                    <!--                                    Canada seeks skilled workers in tech, healthcare,-->
-                    <!--                                    engineering, trades, and education. Graduates in these fields may have a competitive-->
-                    <!--                                    edge for work-->
-                    <!--                                    and immigration.-->
-                    <!--                                </p>-->
-                    <!--                            </div>-->
-                    <!--                        </article>-->
-                    <!--                    </li>-->
-                    <!--                </ul>-->
                 </div>
             </div>
         </div>
@@ -480,7 +392,7 @@
         <div class="footer__content">
             <nav class="footer__nav">
                 <div class="footer__logo logo">
-                    <img class="logo__img" src="public/images/logo.png" alt="Logo">
+                    <a href="/" class="link logo__link">SWC</a>
                 </div>
                 <ul class="footer__menu">
                     <li><a class="footer__link link" href="#education-types">Types of Education</a></li>
@@ -494,7 +406,7 @@
         </div>
         <div class="footer__container">
             <div class="footer__bottom">
-                <p class="footer__copyright">&copy; 2025 StudyCA.</p>
+                <p class="footer__copyright">&copy; 2025 SWC</p>
                 <div class="footer__links">
                     <a class="link footer__link" href="privacy-policy.html" target="_blank"
                     >The privacy policy</a>
